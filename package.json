@@ -4,12 +4,13 @@
   "description": "Its an Amazing Couse To upgrad Your Skills",
   "license": "ISC",
   "author": "Het Patel",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "express": "^5.1.0"
   }
 }
