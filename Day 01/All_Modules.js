@@ -1,58 +1,58 @@
-// * File Read
-// const fs  = require ('fs');
+* File Read
+const fs  = require ('fs');
 
-// const readData = fs.readFileSync('./Day 01/readFile.txt','utf-8',(err,data)=>{
-//     if(err){
-//         console.log(err);
-//     }
-//     else{
-//         console.log(data);
-//     }
-// });
+const readData = fs.readFileSync('./Day 01/readFile.txt','utf-8',(err,data)=>{
+    if(err){
+        console.log(err);
+    }
+    else{
+        console.log(data);
+    }
+});
 
-// console.log(readData);
+console.log(readData);
 
-// * File Write
+* File Write
 
-// const fs  = require ('fs');
+const fs  = require ('fs');
 
-// const wirteData = fs.writeFileSync('./Day 01/writeFile.txt',"Jay Hindi Dosto");
+const wirteData = fs.writeFileSync('./Day 01/writeFile.txt',"Jay Hindi Dosto");
 
-// console.log(wirteData);
+console.log(wirteData);
 
-//* Server Creating
+* Server Creating
 
-// const http = require('http');
+const http = require('http');
 
-// const server = http.createServer((req,res) => {
-//     res.write("Hello Dosto Bharat mata ki jay jay hindi");
-//     res.end();
-// });
+const server = http.createServer((req,res) => {
+    res.write("Hello Dosto Bharat mata ki jay jay hindi");
+    res.end();
+});
 
-// server.listen(3000, () => {
-//     console.log("Server chalu ho gaya port 3000 pe");
-// });
+server.listen(3000, () => {
+    console.log("Server chalu ho gaya port 3000 pe");
+});
 
-// * path module
-// const path = require('path');
+* path module
+const path = require('path');
 
-// console.log("current dircetory:", __dirname);
+console.log("current dircetory:", __dirname);
 
-// const filepath = () =>{
-//     path.join(__dirname, 'backend', 'day 01', 'index.js');
-// }
-// console.log("fpath:"+filepath);
+const filepath = () =>{
+    path.join(__dirname, 'backend', 'day 01', 'index.js');
+}
+console.log("fpath:"+filepath);
 
-// const ext = path.extname('./Day 01/All_Modules.js')
-// console.log(ext);
+const ext = path.extname('./Day 01/All_Modules.js')
+console.log(ext);
 
-// const Basename = path.basename('./Day 01/All_Modules.js');
-// console.log(Basename);
+const Basename = path.basename('./Day 01/All_Modules.js');
+console.log(Basename);
 
-// const Dirname = path.dirname('./Day 01/All_Modules.js');
-// console.log(Dirname)
+const Dirname = path.dirname('./Day 01/All_Modules.js');
+console.log(Dirname)
 
-// * OS Modules
+* OS Modules
 const os = require('os');
 
 console.log(os.freemem());
